@@ -17,10 +17,5 @@ package-lock.json
 # Master branch
 /build
 
-# Files branch
-# /public
-# /src
-# package.json
-
 .vscode
 .idea
