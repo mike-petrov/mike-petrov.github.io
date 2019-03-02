@@ -1,1 +1,3 @@
-# mike-petrov.github.io
+# Web-app about mike-petrov
+
+Stable version :)
