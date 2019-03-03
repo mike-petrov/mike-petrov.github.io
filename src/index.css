@@ -1,0 +1,111 @@
+@font-face {
+   font-family: San-Francisco;
+   src: url(.src/San-Francisco.ttf);
+  }
+
+body, html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-size: 11px;
+    font-style: normal;
+    line-height: 1.5;
+    background-color: #181818;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'apercu_proregular';
+    cursor: default;
+}
+
+.title {
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+@media (min-width: 550px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 750px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+.about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition: background-color 3s linear;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.table {
+    display: table;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+    color: #cc99e6;
+}
+
+@media (min-width: 550px) {
+    .content {
+        max-width: 600px;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-link, .social-link:active, .social-link:link, .social-link:visited {
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #cc99e6;
+    transition: color .3s linear;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    width: auto;
+}
+
+.content:after {
+    content: '✌';
+    display: block;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -1em;
+}
