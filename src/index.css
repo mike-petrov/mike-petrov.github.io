@@ -1,8 +1,3 @@
-@font-face {
-   font-family: San-Francisco;
-   src: url(.src/San-Francisco.ttf);
-  }
-
 body, html {
     width: 100%;
     height: 100%
@@ -13,16 +8,18 @@ body {
     font-style: normal;
     line-height: 1.5;
     background-color: #181818;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'apercu_proregular';
+    font-family: 'Roboto', sans-serif;
     cursor: default;
 }
 
 .title {
     text-align: center;
     padding: 0 0 20px;
+}
+
+.status {
+    text-align: center;
+    padding: 20px 0;
 }
 
 @media (min-width: 550px) {
@@ -87,6 +84,10 @@ ul li {
 .social-link, .social-link:active, .social-link:link, .social-link:visited {
     color: #6d6d6d;
     text-decoration: none;
+}
+
+.social {
+    padding-bottom: 40px;
 }
 
 .social-link:hover {

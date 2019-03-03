@@ -10,8 +10,8 @@ class App extends React.Component {
                             Mike Petrov
                         </div>
                         <img src="https://avatars0.githubusercontent.com/u/32885629"/>
-                        <div className='description'>
-                            TEXT
+                        <div className='status'>
+                            ✌️ Reactman ✌️
                         </div>
                         <div className='social'>
                             <ul>
