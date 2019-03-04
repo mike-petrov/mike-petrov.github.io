@@ -21,6 +21,11 @@ class App extends React.Component {
                                 <li><a className="social-link" href="https://github.com/mike-petrov">GitHub</a></li>
                             </ul>
                         </div>
+                        <div className='hackathons'>
+                            <ul>
+                                <li><a className="social-link" href="https://github.com/mike-petrov/Hackathons">Hackathons</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

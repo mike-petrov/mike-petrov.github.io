@@ -1,5 +1,5 @@
 body {
-    font-size: 11px;
+    font-size: 17px;
     font-style: normal;
     line-height: 1.5;
     background-color: #181818;
@@ -29,13 +29,14 @@ body {
 }
 
 .content {
-    font-weight: lighter;
+    font-weight: 300;
     margin: 0 auto;
     width: 80%;
     transition: color 3s linear;
 }
 
 .title {
+    color: #f1f1f1;
     text-align: center;
     padding: 0 0 20px;
 }
@@ -67,6 +68,10 @@ ul li {
     margin-right: 20px;
 }
 
+ul li:last-child {
+    margin-right: 0;
+}
+
 .social-link {
     color: #6d6d6d;
     text-decoration: none;
@@ -74,6 +79,14 @@ ul li {
 }
 
 .social {
+    animation-name: socialAnimation;
+    animation-duration: .2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    padding-bottom: 10px;
+}
+
+.hackathons {
     animation-name: socialAnimation;
     animation-duration: .2s;
     animation-delay: 2s;
@@ -137,20 +150,4 @@ ul li {
 
 .color10, .color10 .social-link:hover {
     color: #e699a6;
-}
-
-@media (min-width: 550px) {
-    body {
-        font-size: 17px;
-    }
-
-    .content {
-        max-width: 600px;
-    }
-}
-
-@media (min-width: 750px) {
-    body {
-        font-size: 19px;
-    }
 }
