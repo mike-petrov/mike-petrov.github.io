@@ -6,9 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>Mike Petrov</title>
     </head>
     <body>
         <div id="root"></div>
+        <script>
+            var i=1;
+            setInterval(function() {
+                $('.content').removeClass('color9').removeClass('color'+(i-1)).addClass('color'+i);
+                i=i+1;
+                if(i>=10) {
+                    i=1;
+                }
+            }, 3000)
+        </script>
     </body>
 </html>
