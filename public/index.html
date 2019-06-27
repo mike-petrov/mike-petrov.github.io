@@ -5,19 +5,21 @@
         <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <script src="https://kit.fontawesome.com/5f5aca2fbe.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="%PUBLIC_URL%/style.css" >
         <title>Mike Petrov</title>
     </head>
     <body>
         <div id="root"></div>
         <script>
-            var i=1;
+            let i = 1;
             setInterval(function() {
                 $('.content').removeClass('color9').removeClass('color'+(i-1)).addClass('color'+i);
-                i=i+1;
-                if(i>=10) {
-                    i=1;
+                i = i + 1;
+                if(i >= 10) {
+                    i = 1;
                 }
             }, 3000)
         </script>
