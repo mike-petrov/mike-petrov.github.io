@@ -18,12 +18,13 @@ body {
 .card {
     width: 70%;
     margin: 0 auto;
-    border-radius: 4px;
-    border: 2px solid #d1d5da;
+    border-radius: 8px;
+    background: #d1d5da;
 }
 
 .card_header img {
     width: 100%;
+    border-radius: 6px 6px 0 0;
     height: auto;
 }
 
@@ -51,7 +52,7 @@ ul li {
 }
 
 .social-link {
-    color: #6d6d6d;
+    color: #6f7d95;
     text-decoration: none;
     font-size: 40px;
     transition: color .3s linear;
@@ -69,48 +70,4 @@ ul li {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-}
-
-.color0 .social-link {
-    color: #e69999;
-}
-
-.color1 .social-link {
-    color: #e6c699;
-}
-
-.color2 .social-link {
-    color: #d9e699;
-}
-
-.color3 .social-link {
-    color: #ace699;
-}
-
-.color4 .social-link {
-    color: #99e6b3;
-}
-
-.color5 .social-link {
-    color: #99e6df;
-}
-
-.color6 .social-link {
-    color: #99bfe6;
-}
-
-.color7 .social-link {
-    color: #9f99e6;
-}
-
-.color8 .social-link {
-    color: #cc99e6;
-}
-
-.color9 .social-link {
-    color: #e699d2;
-}
-
-.color10 .social-link {
-    color: #e699a6;
 }
