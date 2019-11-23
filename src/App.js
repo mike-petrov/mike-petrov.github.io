@@ -1,9 +1,7 @@
 import React from 'react';
-import {  BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Main from './Components/Main';
-import CV from './Components/CV';
-import Portfolio from './Components/Portfolio';
+import Home from './Components/Home';
 
 
 class App extends React.Component {
@@ -12,13 +10,7 @@ class App extends React.Component {
 			<BrowserRouter>
 				<Switch>
                     <Route exact path="/">
-                        <Main />
-                    </Route>
-                    <Route path="/cv">
-                        <CV />
-                    </Route>
-                    <Route path="/portfolio">
-                        <Portfolio />
+                        <Home />
                     </Route>
 			   </Switch>
 	   		</BrowserRouter>
