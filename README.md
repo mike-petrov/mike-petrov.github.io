@@ -1,3 +1,1 @@
-# Web-app about mike-petrov
-
-Stable version :)
+# Redirect release
